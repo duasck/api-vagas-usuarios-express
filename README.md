@@ -19,10 +19,10 @@ Este projeto é uma API RESTful criada com Node.js, Express e Sequelize que impl
 
 ## Instalação
 
-1. Clone o repositório:
+1. Clone o repositório 1 repositorio original 2 repositorio alterado:
    ```bash
-   git clone https://github.com/JefersonQueiroga/api-express.git
-   ```
+   git clone https://github.com/JefersonQueiroga/api-express.git 
+   git clone https://github.com/duasck/api-vagas-usuarios-express.git
 
 2. Instale as dependências:
    ```bash
@@ -48,6 +48,8 @@ O servidor estará rodando em `http://localhost:3000`.
 - **GET /api/usuarios/:id** - Retorna um usuário específico.
 - **PUT /api/usuarios/:id** - Atualiza as informações de um usuário.
 - **DELETE /api/usuarios/:id** - Deleta um usuário.
+- **POST /api/usuarios/login** - Dado um email e senha, retorna um usuario específico se existir.
+
 
 #### Vagas
 
